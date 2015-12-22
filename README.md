@@ -30,6 +30,7 @@ Now you can develop your project in docker by just running(this will build the s
 
 `$ ./start`
 
+
 When your done developing run  (This does the same as above, but will NOT include draft posts):
 
 `$ ./publish`
