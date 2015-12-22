@@ -33,5 +33,6 @@ When your done developing run  (This does the same as above, but will NOT includ
 
 `$ ./publish`
 
+Most edits should occur without a need for restarting, if an edit does not appear, simply re-run the scripts, they are all idempotent.
 
 Once your happy with your site, simply upload the dist folder to your favorite hosting provider.
