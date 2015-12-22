@@ -3,23 +3,31 @@ Docker scripts that let you run Jekyll without installing ruby. Supports windows
 
 
 [Docker for Windows](https://www.docker.com/docker-toolbox)
+
 [Docker for Linux](https://docs.docker.com/engine/installation/)
+
 [Docker Machine for Linux](https://docs.docker.com/machine/install-machine/)
 
-Add the appropriate scripts to the root directory of your project, rename them if you prefer eg:
-Linux:
+#### To Use:
+Add the appropriate scripts to the root directory of your project, rename them if you prefer (remove the OS prefix)eg:
+#####Linux:
 linux-start -> start
+
 linux-publish -> publish
 
-Windows:
+##### Windows:
+
 windows-start -> start
+
 windows-publish -> publish
 
 
 Now you can develop your project in docker by just running(this will build the site, and serve it on a URL that will be displayed to you.  This build will include draft posts) 
+
 `$ ./start`
 
 When your done developing run  (This does the same as above, but will NOT include draft posts):
+
 `$ ./publish`
 
 
