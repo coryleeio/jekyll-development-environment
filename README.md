@@ -28,4 +28,4 @@ When your done developing run  (This does the same as above, but will NOT includ
 `$ ./publish`
 
 
-Once your happy with your site, upload the dist folder to your favorite hosting provider.
+Once your happy with your site, simply upload the dist folder to your favorite hosting provider.
