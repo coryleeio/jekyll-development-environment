@@ -12,7 +12,7 @@ Supports Windows and Linux
 Linux users will also need to install: 
 [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-#### To Use:
+#### Setup:
 Add the appropriate scripts to the root directory of your project, rename them if you prefer (remove the OS prefix)eg:
 
 #####Ubuntu:
@@ -26,6 +26,7 @@ Add the appropriate scripts to the root directory of your project, rename them i
 	$ mv windows-publish /YOUR_PROJECT/publish
 
 
+#### To Use:
 Now you can develop your project in docker by just running(this will build the site, and serve it on a URL that will be displayed to you.  This build will include draft posts) 
 
 `$ ./start`
